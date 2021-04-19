@@ -1,2 +1,2 @@
-# Assembler
+# RISC-V Assembler
 course practice
