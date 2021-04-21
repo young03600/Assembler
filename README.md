@@ -1,6 +1,9 @@
 # RISC-V Assembler for R32I
 course practice
 
+## Compile file use Makefile
+    make all
+
 ## How does your file pass: 
 ### using Command line argument to pass path of your input file 
     Assembler to be run like this
