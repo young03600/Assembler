@@ -11,20 +11,20 @@ course practice
   *Any error or not supported type would be detected at the point when the program is running on that type*
 
 Example Input:
-
-    add x2,x2,x23   
+    
+        add x2,x2,x23   
 <br />    
-    addi x24,x24,2
+        addi x24,x24,2
 <br />  
-    bne x24,x23,L2
+        bne x24,x23,L2
 <br /> 
-    sw x27,0(x10)
+        sw x27,0(x10)
 <br />
-    beq x0,x0,L1
+        beq x0,x0,L1
 <br />
-    L2: sw x1,0(x2)
+        L2: sw x1,0(x2)
 <br />
-    L1: addi x24,x24,1
+        L1: addi x24,x24,1
 
 Example Output: (followd the instruction order above)
 
