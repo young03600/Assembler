@@ -25,7 +25,7 @@ Example Input:
     L2: sw x1,0(x2)
     L1: addi x24,x24,1
 
-Example Output: (followd the instruction order above)
+Example Output: (follow the instruction order above)
 
       | f5  |f2| rs2 | rs1 |f3 | rd  | opcode |
        00000 00 10111 00010 000 00010  0110011
