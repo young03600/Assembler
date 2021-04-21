@@ -14,9 +14,9 @@ L1: addi x24,x24,1
 
 Example Output: (followd the instruction order above)
 
- | f5  |f2| rs2 | rs1 |f3 | rd  | opcode |
+        | f5  |f2| rs2 | rs1 |f3 | rd  | opcode |
   
-00000 00 10111 00010 000 00010  0110011
+          00000 00 10111 00010 000 00010  0110011
 
       | simm[11:0] | rs1 |f3 | rd  | opcode |
  
@@ -40,6 +40,6 @@ Example Output: (followd the instruction order above)
 
       | simm[11:0] | rs1 |f3 | rd  | opcode |
 
-  000000000001 11000 000 11000  0010011
+        000000000001 11000 000 11000  0010011
   
   
