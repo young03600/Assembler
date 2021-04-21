@@ -2,7 +2,7 @@
 course practice
 
 ## Compiling files use Makefile
-    make all
+    mingw32-make all (on windwos)
 
 ## How does your file pass: 
 ### using Command line argument to pass path of your input file 
