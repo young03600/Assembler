@@ -4,6 +4,7 @@ course practice
 ## How does your file pass: 
 ### using Command line argument to pass path of your input file 
     Assembler to be run like this
+    ./Assembler <path of your file>
     Assembler *assembler = new Assembler("path of your input file");
 ## How the Assembler works?
 *   A base class Instruction pointer initialized when the Assembler is running
