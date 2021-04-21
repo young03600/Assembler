@@ -6,8 +6,8 @@ course practice
     Assembler to be run like this
     Assembler *assembler = new Assembler("path of your input file");
 ## How the Assembler works?
-*   A base class Instruction pointer initialize when the Assembler is running
-*   After the instruction type was determined, the Instruction pointer points the type it should be\
+*   A base class Instruction pointer initialized when the Assembler is running
+*   After the instruction type was determined, the Instruction pointer points the type it should be
     *   *Any error or not supported type would be detected at any point*
 
 Example Input:
