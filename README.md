@@ -8,7 +8,7 @@ course practice
 ## How the Assembler works?
 *   A base class Instruction pointer initialize when the Assembler is running
 *   After the instruction type was determined, the Instruction pointer points the type it should be\
-    *   *Any error or not supported type would be detected at the point*
+    *   *Any error or not supported type would be detected at any point*
 
 Example Input:
     
