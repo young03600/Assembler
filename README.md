@@ -1,7 +1,7 @@
 # RISC-V Assembler for R32I
 course practice
 
-## Compile file use Makefile
+## Compiling files use Makefile
     make all
 
 ## How does your file pass: 
