@@ -1,9 +1,12 @@
-# RISC-V Assembler
+# RISC-V Assembler for R32I
 course practice
 
-## How does your file pass: using argv to pass your path of your input file 
+## How does your file pass: using Command line argument to pass path of your input file 
     Assembler to be run like this
     Assembler *assembler = new Assembler("path of your input file");
+## How the Assembler works?
+    * A base class Instruction pointer initialize when the Assembler is running
+    * 
 
 Example Input:
 
