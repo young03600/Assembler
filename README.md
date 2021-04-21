@@ -1,6 +1,9 @@
 # RISC-V Assembler
 course practice
 
+## How does your file pass: using argv to pass your path of your input file 
+    Assembler *assembler = new Assembler(argv[1]);
+
 Example Input:
 
     add x2,x2,x23       
