@@ -10,6 +10,7 @@ Example Input:
   beq x0,x0,L1
   
 L2: sw x1,0(x2)
+
 L1: addi x24,x24,1
 
 Example Output: (followd the instruction order above)
