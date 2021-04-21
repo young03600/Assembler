@@ -17,9 +17,8 @@ Example Input:
      bne x24,x23,L2
      sw x27,0(x10)
      beq x0,x0,L1
-     L2: sw x1,0(x2)
-<br />
-     L1: addi x24,x24,1
+    L2: sw x1,0(x2)
+    L1: addi x24,x24,1
 
 Example Output: (followd the instruction order above)
 
