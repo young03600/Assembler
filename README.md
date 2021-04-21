@@ -1,4 +1,4 @@
-# RISC-V Assembler for R32I
+# RISC-V Assembler for RV32I
 course practice
 
 ## Compiling files use Makefile
