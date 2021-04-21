@@ -25,7 +25,7 @@ Example Input:
 Example Output: (followd the instruction order above)
 
       | f5  |f2| rs2 | rs1 |f3 | rd  | opcode |
-        00000 00 10111 00010 000 00010  0110011
+       00000 00 10111 00010 000 00010  0110011
 
       | simm[11:0] | rs1 |f3 | rd  | opcode |
        000000000010 11000 000 11000  0010011
