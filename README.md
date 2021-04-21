@@ -10,7 +10,7 @@ course practice
 *   A base class Instruction pointer initialized when the Assembler is running
 *   After the instruction type was determined, the Instruction pointer points the type it should be
     *   *Any error or not supported type would be detected at any point*
-*   The method I used is that supported by the mechanism of polymorphism
+*   I used the method that supported by the mechanism of polymorphism let the base class run types, which inherit from base class Instriction, R type, I type, S type and so on...
 
 Example Input:
     
