@@ -8,8 +8,7 @@ course practice
 ## How the Assembler works?
 *   A base class Instruction pointer initialize when the Assembler is running
 *   After the instruction type was determined, the Instruction pointer points the type it should be
-
-*Any error or not supported type would be detected at the point when the program is running on that type*
+  *Any error or not supported type would be detected at the point when the program is running on that type*
 
 Example Input:
 
@@ -18,9 +17,8 @@ Example Input:
     bne x24,x23,L2       
     sw x27,0(x10)       
     beq x0,x0,L1
-    
-    L2: sw x1,0(x2)
-    L1: addi x24,x24,1
+ L2: sw x1,0(x2)
+ L1: addi x24,x24,1
 
 Example Output: (followd the instruction order above)
 
