@@ -14,7 +14,7 @@ Example Input:
 
 Example Output: (followd the instruction order above)
 
-        | f5  |f2| rs2 | rs1 |f3 | rd  | opcode |
+      | f5  |f2| rs2 | rs1 |f3 | rd  | opcode |
   
          00000 00 10111 00010 000 00010  0110011
 
@@ -28,18 +28,18 @@ Example Output: (followd the instruction order above)
 
       | simm[11:5] | rs2 | rs1 |f3 | simm[4:0] | opcode |
 
-            0000000   11011 01010 010    00000     0100011
+         0000000   11011 01010 010    00000     0100011
 
       | imm[12|10:5] | rs2 | rs1 |f3 | simm[4:1|11] | opcode |
 
-            0000000   00000 00000 000      01000     1100011
+         0000000   00000 00000 000      01000     1100011
 
       | simm[11:5] | rs2 | rs1 |f3 | simm[4:0] | opcode |
 
-            0000000   00001 00010 010    00000     0100011
+         0000000   00001 00010 010    00000     0100011
 
       | simm[11:0] | rs1 |f3 | rd  | opcode |
 
-            000000000001 11000 000 11000  0010011
+         000000000001 11000 000 11000  0010011
   
   
