@@ -2,6 +2,7 @@
 course practice
 
 Example Input:
+
   add x2,x2,x23       
   addi x24,x24,2       
   bne x24,x23,L2       
@@ -11,6 +12,7 @@ L2: sw x1,0(x2)
 L1: addi x24,x24,1
 
 Example Output: (followd the instruction order above)
+
  | f5  |f2| rs2 | rs1 |f3 | rd  | opcode |
   00000 00 10111 00010 000 00010  0110011
 
