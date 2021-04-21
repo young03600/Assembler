@@ -12,13 +12,13 @@ course practice
 
 Example Input:
 
-    add x2,x2,x23       
-    addi x24,x24,2       
-    bne x24,x23,L2       
-    sw x27,0(x10)       
-    beq x0,x0,L1
- L2: sw x1,0(x2)
- L1: addi x24,x24,1
+    add x2,x2,x23<br />    
+    addi x24,x24,2<br />  
+    bne x24,x23,L2<br /> 
+    sw x27,0(x10)<br />
+    beq x0,x0,L1<br />
+ L2: sw x1,0(x2)<br />
+ L1: addi x24,x24,1<br />
 
 Example Output: (followd the instruction order above)
 
