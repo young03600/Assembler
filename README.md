@@ -40,6 +40,6 @@ Example Output: (followd the instruction order above)
 
       | simm[11:0] | rs1 |f3 | rd  | opcode |
 
-      000000000001 11000 000 11000  0010011
+        000000000001 11000 000 11000  0010011
   
   
