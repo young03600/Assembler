@@ -2,6 +2,7 @@
 course practice
 
 ## How does your file pass: using argv to pass your path of your input file 
+    Assembler to be run like this
     Assembler *assembler = new Assembler("path of your input file");
 
 Example Input:
